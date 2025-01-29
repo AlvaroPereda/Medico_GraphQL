@@ -29,9 +29,11 @@ Desarrollar una API en GraphQL que gestione un sistema de reservas para un consu
         Nombre del paciente.
         Número de teléfono del paciente.
 
-    deleteAppointment, cuyo parámetro debe ser el ID de la cita y que devuelve true o false en función de si la cita se ha borrado satisfactoriamente o no.
+    deleteAppointment, cuyo parámetro debe ser el ID de la cita y que devuelve true o false en función 
+    de si la cita se ha borrado satisfactoriamente o no.
 
-    updatePatient, cuyo parámetro debe ser el ID del paciente y los nuevos datos (nombre, teléfono y/o correo electrónico). Devuelve los datos actualizados del paciente.
+    updatePatient, cuyo parámetro debe ser el ID del paciente y los nuevos datos 
+    (nombre, teléfono y/o correo electrónico). Devuelve los datos actualizados del paciente.
 
 # Notas:
 Se debe validar que el número de teléfono es correcto utilizando una API externa. Si no es válido, la mutación devolverá un error de GraphQL.
