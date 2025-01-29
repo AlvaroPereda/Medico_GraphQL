@@ -38,4 +38,4 @@ Desarrollar una API en GraphQL que gestione un sistema de reservas para un consu
 # Notas:
 Se debe validar que el número de teléfono es correcto utilizando una API externa. Si no es válido, la mutación devolverá un error de GraphQL.
 No se permite más de un paciente con el mismo número de teléfono o correo electrónico. Esto debe validarse a través de Mongoose.
-Para obtener información de validación del número de teléfono o zona horaria del paciente, se puede usar una API externa como las de API Ninjas.
+Para obtener información de validación del número de teléfono, se puede usar una API externa como las de API Ninjas.
